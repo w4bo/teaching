@@ -32,7 +32,7 @@
 \definecolor{mygreen}{rgb}{0,0.6,0}
 \definecolor{mygray}{rgb}{0.5,0.5,0.5}
 \definecolor{mymauve}{rgb}{0.58,0,0.82}
-\newcommand{\g}[1]{{\color{green}#1}}
+\newcommand{\g}[1]{{\color{mygreen}#1}}
 \renewcommand{\b}[1]{{\color{blue}#1}}
 \renewcommand{\r}[1]{{\color{red}#1}}  
 
@@ -64,18 +64,56 @@
   % tabsize=2,	                   % sets default tabsize to 2 spaces
   % title=\lstname                 % show the filename of files included with \lstinputlisting; also try caption instead of title
 }
-%% Load the markdown package
-\usepackage[citations,footnotes,definitionLists,hashEnumerators,smartEllipses,tightLists=false,pipeTables,tableCaptions,hybrid,fencedCode]{markdown}
-%%begin novalidate
-\markdownSetup{rendererPrototypes={
-    link = {\href{#2}{#1}},
-    headingOne = {\section{#1}},
-    headingTwo = {\subsection{#1}},
-    headingThree = {\begin{frame}\frametitle{#1}},
-    headingFour = {\begin{block}{#1}},
-    horizontalRule = {\end{block}}
-}}
+
+% \setlength{\parskip}{1em}
+% \renewcommand{\baselinestretch}{1.5}
+
+\makeatletter
+\newcommand{\printenv}{%
+\@currenvir
+}
+\makeatother
+
+\makeatletter
+\newcommand{\IfEnv}{%
+  \ifnum\pdfstrcmp{\@currenvir}{beamer@framepauses}=0 0 \else 1 \fi
+}
+\makeatother
+
+\newcommand{\myframe}[1]{%
+\ifnum\pdfstrcmp{\@currenvir}{beamer@framepauses}=0
+\begin{frame}\frametitle{#1}
+\else 
+\begin{frame}\frametitle{#1}
+\fi
+}
+\renewcommand{\i}{\vspace{-8px}\par\leavevmode
+  \hbox to\labelwidth{\hss\usebeamercolor[fg]{itemize item}\usebeamertemplate{itemize item}}\hspace{\labelsep}}
+\newcommand{\si}{\vspace{-10px}\par\leavevmode\hskip\leftmarginii
+  \hbox to\labelwidth{\hss\usebeamercolor[fg]{itemize subitem}\usebeamertemplate{itemize subitem}}\hspace{\labelsep}}
+\newcommand{\ssi}{\vspace{-10px}\par\leavevmode\hskip\leftmargini\hskip\leftmarginii
+  \hbox to\labelwidth{\hss\usebeamercolor[fg]{itemize subsubitem}\usebeamertemplate{itemize subsubitem}}\hspace{\labelsep}}
+
+% \usepackage[citations,footnotes,definitionLists,hashEnumerators,smartEllipses,tightLists=false,pipeTables,tableCaptions,hybrid,fencedCode]{markdown}
+% %%begin novalidate
+% \markdownSetup{rendererPrototypes={
+%     link = {\href{#2}{#1}},
+%     headingOne = {\section{#1}},
+%     headingTwo = {\subsection{#1}},
+%     headingThree = {\begin{frame}\frametitle{#1}},
+%     headingFour = {\begin{block}{#1}},
+%     horizontalRule = {\end{block}}
+%     % headingOne = {\IfEnv{\end{frame}\section{#1}}{\section{#1}}},
+%     % headingTwo = {\IfEnv{\end{frame}\subsection{#1}}{\subsection{#1}}},
+%     % headingThree = {\IfEnv{\end{frame}\begin{frame}\frametitle{#1}}{\begin{frame}\frametitle{#1}}},
+% }}
 %%end novalidate
+
+% \renewcommand{\sec}[1]{\section{#1}\begin{frame}\vfill{\huge#1}\\\noindent\rule{13.5cm}{0.4pt}\vfill\end{frame}}
+\newcounter{sections}
+\renewcommand{\sec}[1]{\section{#1}\newcounter{\secname}\stepcounter{sections}}
+\newcommand{\ssec}[1]{\begin{frame}\vfill{\huge\secname}\\\noindent\rule{13.5cm}{0.4pt}\\\vspace{10px}{\large\stepcounter{\secname}[\Alph{sections}.\arabic{\secname}]  #1}\vfill\end{frame}\subsection{#1}}
+
 \begin{document}
-\input{slides}
+\input{sources/slides}
 \end{document}
