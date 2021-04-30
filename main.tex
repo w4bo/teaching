@@ -23,6 +23,7 @@
 \usepackage{color}
 \usepackage[export]{adjustbox}
 \usepackage{appendixnumberbeamer}
+\usepackage[gen]{eurosym}
 \usetheme{pro}
 \newcommand{\cmark}{\ding{51}}
 \newcommand{\xmark}{\ding{55}}
@@ -110,10 +111,40 @@
 %%end novalidate
 
 % \renewcommand{\sec}[1]{\section{#1}\begin{frame}\vfill{\huge#1}\\\noindent\rule{13.5cm}{0.4pt}\vfill\end{frame}}
+% \newcounter{sections}
+% \renewcommand{\sec}[1]{\section{#1}\newcounter{\secname}\stepcounter{sections}}
+% \newcommand{\ssec}[1]{\begin{frame}\vfill{\huge\secname}\\\noindent\rule{13.5cm}{0.4pt}\\\vspace{10px}{\large\stepcounter{\secname}[\Alph{sections}.\arabic{\secname}] #1}\vfill\end{frame}\subsection{#1}}
+\let\Subsectionmark\subsectionmark
+\def\subsectionmark#1{\def\Subsectionname{#1}\Subsectionmark{#1}}
+
+\newcommand{\currentsubsection}{}
+\let\oldsubsection\subsection
+\renewcommand{\subsection}[1]{\oldsubsection{#1}\renewcommand{\currentsubsection}{#1}}
+
 \newcounter{sections}
 \renewcommand{\sec}[1]{\section{#1}\newcounter{\secname}\stepcounter{sections}}
-\newcommand{\ssec}[1]{\begin{frame}\vfill{\huge\secname}\\\noindent\rule{13.5cm}{0.4pt}\\\vspace{10px}{\large\stepcounter{\secname}[\Alph{sections}.\arabic{\secname}]  #1}\vfill\end{frame}\subsection{#1}}
-
+\newcommand{\ssec}[1]{
+    \begin{frame}
+    \vfill{\huge\secname}\\
+    \noindent\rule{13.5cm}{0.4pt}\\\vspace{10px}
+    {\large
+        \stepcounter{\secname}
+        [\Alph{sections}.\arabic{\secname}] #1}
+    \vfill
+    \end{frame}
+    \subsection{#1}
+    \newcounter{\currentsubsection}
+}
+\newcommand{\sssec}[1]{
+    \begin{frame}
+    \vfill{\huge\secname}\\
+    \noindent\rule{13.5cm}{0.4pt}\\\vspace{10px}
+    {\large
+        \stepcounter{\currentsubsection}
+        [\Alph{sections}.\arabic{\secname}.\arabic{\currentsubsection}] #1}
+    \vfill
+    \end{frame}
+}
 \begin{document}
 \input{sources/slides}
 \end{document}
