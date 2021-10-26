@@ -1,0 +1,87 @@
+\mode<presentation>
+
+\setbeamertemplate{background}{
+  \begin{tikzpicture}
+        %   \useasboundingbox   (0,0) rectangle(\the\paperwidth,\the\paperheight);
+        %   \fill[color=brown]  (0,1) rectangle(\the\paperwidth,\the\paperheight);
+        %   \fill[color=orange] (0,0) rectangle(2.95,1.9);
+        %   \fill[color=blue!50!cyan!80] (3.05,0) rectangle(\the\paperwidth,1.9);
+        %   \ifnum\thepage>1\relax%
+        %   \fill[white,opacity=1] (0,0) rectangle(\the\paperwidth,\the\paperheight);
+        %   \fi
+      \useasboundingbox (0,0) rectangle(\the\paperwidth,\the\paperheight);
+      \ifnum\thepage<2
+      \fill[color=big]  (0,0) rectangle(\the\paperwidth,\the\paperheight);
+      \fi
+    %   \ifnum\thepage>1\relax%
+    %   \fill[white,opacity=1] (0,0) rectangle(\the\paperwidth,\the\paperheight);
+    %   \fi
+  \end{tikzpicture}
+}
+
+% \setbeamertemplate{footline}{fg=blue}{%
+%     \hfill
+%     \usebeamertemplate
+%     \insertshortauthor
+%     \insertshorttitle
+%     \insertframenumber{}/\inserttotalframenumber
+% }
+
+
+
+\makeatother
+\setbeamertemplate{footline}{%
+    \leavevmode%
+    \hbox{%
+        \begin{beamercolorbox}[wd=.333\paperwidth,ht=2.25ex,dp=1.5ex,left]{author in head/foot}%
+            \ifnum\thepage>1\color{gray}\hspace*{4ex}\usebeamerfont{author in head/foot}\insertshortauthor\fi
+        \end{beamercolorbox}%
+        \begin{beamercolorbox}[wd=.333\paperwidth,ht=2.25ex,dp=1ex,center]{title in head/foot}%
+            \ifnum\thepage>1\color{gray}\usebeamerfont{title in head/foot}\insertshorttitle\fi
+        \end{beamercolorbox}
+        \begin{beamercolorbox}[wd=.333\paperwidth,ht=2.25ex,dp=1ex,right]{title in head/foot}%
+            \ifnum\thepage>1\color{gray}\usebeamerfont{title in head/foot}\insertframenumber{} / \inserttotalframenumber\hspace*{4ex}\fi
+        \end{beamercolorbox}
+    }%
+}
+\makeatletter
+
+% Title page
+\defbeamertemplate*{title page}{pro}[1][]
+{ 
+%   \vskip6cm%
+%     \begin{beamercolorbox}[wd=12cm,sep=8pt,#1]{title page header}
+%       \usebeamerfont{title}\inserttitle\par%
+%     \end{beamercolorbox}%
+%     \vskip0.75cm%
+%     \begin{beamercolorbox}[wd=12cm,#1]{author}
+%       \usebeamerfont{author}\insertauthor%
+%     \end{beamercolorbox}
+%      \vskip0.2cm%
+%     \begin{beamercolorbox}[wd=12cm,#1]{date}
+%       \usebeamerfont{author}\insertdate%
+%     \end{beamercolorbox}
+%   \vfill
+    \centering\vskip2.5cm%
+    \begin{beamercolorbox}[wd=.9\paperwidth,#1]{title page header}
+        \centering\usebeamerfont{title}\Huge\inserttitle%
+    \end{beamercolorbox}%
+    \begin{tikzpicture}
+    \draw[white] (0,0) -- (.5\paperwidth,0);
+    \end{tikzpicture}
+    \vskip0.2cm%
+    \begin{beamercolorbox}[wd=.9\paperwidth,#1]{author}
+        \centering\small\usebeamerfont{author}\insertauthor%
+    \end{beamercolorbox}
+    \begin{beamercolorbox}[wd=.9\paperwidth,#1]{institute}
+        \centering\small\color{white}\usebeamerfont{author}\insertinstitute%
+    \end{beamercolorbox}
+    \begin{beamercolorbox}[wd=.9\paperwidth,#1]{date}
+        \centering\small\usebeamerfont{author}\insertdate%
+    \end{beamercolorbox}
+    \begin{center}
+        \IfFileExists{imgs/logo.pdf}{\includegraphics[height=1cm,width=1.8cm]{imgs/logo.pdf}}{}
+    \end{center}
+}
+
+\mode<all>
