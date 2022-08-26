@@ -1,8 +1,16 @@
-# Writing slides in Latex and Markdown with a custom theme
+# Big data and cloud platforms
 
-All you need to do is writing your slides in `slides.tex`
+## TODO
 
-## References
+- Create the google form to assess the student capabilities
+- Introduce the housing case study for the first lab
+- Introduce the case study for batch and streaming processing
+- Make students create their relational datawarehouse
+- Sagemaker
+- Streaming
+- ???
 
-- Check [this](https://www.overleaf.com/learn/how-to/Writing_Markdown_in_LaTeX_Documents) to use Markdown in Latex
-- Check [this](https://github.com/Witiko/markdown) to use Markdown in Latex Beamer
+## Teaching 
+
+- AA 2022/2023: Big Data and Cloud Platforms (Digital Transformation Management)
+- AA 2020/2021: Big Data (Computer Science and Engineering)
