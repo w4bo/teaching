@@ -2,7 +2,6 @@
 
 ## TODO
 
-- Create the google form to assess the student capabilities
 - Introduce the housing case study for the first lab
 - Introduce the case study for batch and streaming processing
 - Make students create their relational datawarehouse
