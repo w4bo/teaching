@@ -1,4 +1,4 @@
-# Big data and cloud platforms
+# Big Data and Cloud Platforms
 
 ## Teaching 
 
