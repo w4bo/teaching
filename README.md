@@ -1,14 +1,5 @@
 # Big data and cloud platforms
 
-## TODO
-
-- Introduce the housing case study for the first lab
-- Introduce the case study for batch and streaming processing
-- Make students create their relational datawarehouse
-- Sagemaker
-- Streaming
-- ???
-
 ## Teaching 
 
 - AA 2022/2023: Big Data and Cloud Platforms (Digital Transformation Management)
