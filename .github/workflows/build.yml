@@ -23,10 +23,10 @@ jobs:
           ls -las
       - name: Build local Jupyter
         run: |
-          cd materials
+          cd notebooks
           docker build -t jupyter .
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@v4.4.1
         with:
           branch: gh-pages # The branch the action should deploy to.
-          folder: materials/_site # The folder the action should deploy.
+          folder: notebooks/_site # The folder the action should deploy.
