@@ -6,4 +6,4 @@ sklearn==0.0.post4
 notebook==6.5.4
 matplotlib==3.7.1
 seaborn==0.12.2
-awswrangler==2.17.0
+awswrangler==3.0.0
