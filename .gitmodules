@@ -7,3 +7,6 @@
 [submodule "2022-crea-phdsummerschool"]
 	path = 2022-crea-phdsummerschool
 	url = git@github.com:w4bo/2022-crea-phdsummerschool.git
+[submodule "AA2223-unibo-dtmnosqlseminar"]
+	path = AA2223-unibo-dtmnosqlseminar
+	url = git@github.com:w4bo/AA2223-unibo-dtmnosqlseminar.git
