@@ -4,3 +4,6 @@
 [submodule "AA2021-unibo-bigdata"]
 	path = AA2021-unibo-bigdata
 	url = git@github.com:w4bo/AA2021-unibo-bigdata.git
+[submodule "2022-crea-phdsummerschool"]
+	path = 2022-crea-phdsummerschool
+	url = git@github.com:w4bo/2022-crea-phdsummerschool.git
