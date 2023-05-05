@@ -1,0 +1,6 @@
+[submodule "AA2223-unibo-bigdataandcloudplatforms"]
+	path = AA2223-unibo-bigdataandcloudplatforms
+	url = git@github.com:w4bo/AA2223-unibo-bigdataandcloudplatforms.git
+[submodule "AA2021-unibo-bigdata"]
+	path = AA2021-unibo-bigdata
+	url = git@github.com:w4bo/AA2021-unibo-bigdata.git
