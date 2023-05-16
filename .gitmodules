@@ -10,3 +10,6 @@
 [submodule "AA2223-unibo-dtmnosqlseminar"]
 	path = AA2223-unibo-dtmnosqlseminar
 	url = git@github.com:w4bo/AA2223-unibo-dtmnosqlseminar.git
+[submodule "2023-unite-masterap"]
+	path = 2023-unite-masterap
+	url = git@github.com:w4bo/2023-unite-masterap.git
