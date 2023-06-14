@@ -13,3 +13,6 @@
 [submodule "2023-unite-masterap"]
 	path = 2023-unite-masterap
 	url = git@github.com:w4bo/2023-unite-masterap.git
+[submodule "AA2223-unibo-phddataplat"]
+	path = AA2223-unibo-phddataplat
+	url = git@github.com:w4bo/AA2223-unibo-phddataplat.git
