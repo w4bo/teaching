@@ -15193,13 +15193,9 @@ div.jp-OutputPrompt {
 <p>From <a href="https://www.oreilly.com/library/view/hands-on-machine-learning/9781492032632/">https://www.oreilly.com/library/view/hands-on-machine-learning/9781492032632/</a></p>
 <pre><code>This data has metrics such as the population, median income, median housing price, and so on for each block group in California.
 Block groups are the smallest geographical unit for which the US Census Bureau publishes sample data (a block group typically has a population of 600 to 3,000 people). We will just call them “districts” for short
-The goal is to build a model to predict the median housing price in any district, given all the other metrics
-
-</code></pre>
+The goal is to build a model to predict the median housing price in any district, given all the other metrics</code></pre>
 <p>In case you need help with preprocessing with Pandas, check:</p>
-<pre><code>https://github.com/w4bo/2022-bbs-dm/blob/main/notebooks/01-PandasFundaments.ipynb
-
-</code></pre>
+<pre><code>https://github.com/w4bo/2022-bbs-dm/blob/main/notebooks/01-PandasFundaments.ipynb</code></pre>
 
 </div>
 </div>
@@ -16040,16 +16036,11 @@ memory usage: 887.0+ KB
 <p>There are some missing values in the column <code>total_bedorooms</code> what can we do?</p>
 <p>Most Machine Learning algorithms cannot work with missing features. We have three options:</p>
 <p>Get rid of the corresponding districts (i.e., drop the rows)</p>
-<pre><code>df.dropna(subset=[&quot;total_bedrooms&quot;])
-
-</code></pre>
+<pre><code>df.dropna(subset=[&quot;total_bedrooms&quot;])</code></pre>
 <p>Get rid of the whole attribute (i.e., drop the columns)</p>
-<pre><code>df.drop(&quot;total_bedrooms&quot;, axis=1)
-
-</code></pre>
+<pre><code>df.drop(&quot;total_bedrooms&quot;, axis=1)</code></pre>
 <p>Set the values to some value (zero, the mean, the median, etc.)</p>
-<pre><code>df[&quot;total_bedrooms&quot;].fillna(df[&quot;total_bedrooms&quot;].median())
-</code></pre>
+<pre><code>df[&quot;total_bedrooms&quot;].fillna(df[&quot;total_bedrooms&quot;].median())</code></pre>
 
 </div>
 </div>
