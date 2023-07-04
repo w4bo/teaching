@@ -16,3 +16,6 @@
 [submodule "AA2223-unibo-phddataplat"]
 	path = AA2223-unibo-phddataplat
 	url = git@github.com:w4bo/AA2223-unibo-phddataplat.git
+[submodule "2023-welaser-summerschool"]
+	path = 2023-welaser-summerschool
+	url = git@github.com:w4bo/2023-welaser-summerschool.git
