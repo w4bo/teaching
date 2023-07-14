@@ -19,3 +19,6 @@
 [submodule "2023-welaser-summerschool"]
 	path = 2023-welaser-summerschool
 	url = git@github.com:w4bo/2023-welaser-summerschool.git
+[submodule "2023-asaier-datamining"]
+	path = 2023-asaier-datamining
+	url = git@github.com:w4bo/2023-asaier-datamining.git
