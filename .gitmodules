@@ -22,3 +22,6 @@
 [submodule "2023-asaier-datamining"]
 	path = 2023-asaier-datamining
 	url = git@github.com:w4bo/2023-asaier-datamining.git
+[submodule "2023-utours-nosql"]
+	path = 2023-utours-nosql
+	url = git@github.com:w4bo/2023-utours-nosql.git
