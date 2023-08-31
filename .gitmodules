@@ -28,3 +28,18 @@
 [submodule "teaching-nosql"]
 	path = teaching-nosql
 	url = git@github.com:w4bo/teaching-nosql.git
+[submodule "teaching-fca"]
+	path = teaching-fca
+	url = git@github.com:w4bo/teaching-fca
+[submodule "teaching-graphdb-oscar"]
+	path = teaching-graphdb-oscar
+	url = git@github.com:w4bo/teaching-graphdb-oscar
+[submodule "teaching-handsondatapipelines"]
+	path = teaching-handsondatapipelines
+	url = git@github.com:w4bo/teaching-handsondatapipelines
+[submodule "teaching-nosql-tours"]
+	path = teaching-nosql-tours
+	url = git@github.com:w4bo/teaching-nosql-tours
+[submodule "teaching-seminario-nosql"]
+	path = teaching-seminario-nosql
+	url = git@github.com:w4bo/teaching-seminario-nosql
