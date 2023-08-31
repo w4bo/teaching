@@ -25,3 +25,6 @@
 [submodule "2023-utours-nosql"]
 	path = 2023-utours-nosql
 	url = git@github.com:w4bo/2023-utours-nosql.git
+[submodule "teaching-nosql"]
+	path = teaching-nosql
+	url = git@github.com:w4bo/teaching-nosql.git
