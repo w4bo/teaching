@@ -43,3 +43,9 @@
 [submodule "teaching-seminario-nosql"]
 	path = teaching-seminario-nosql
 	url = git@github.com:w4bo/teaching-seminario-nosql
+[submodule "2023-bbs-op-datamining-orig"]
+	path = 2023-bbs-op-datamining-orig
+	url = git@github.com:w4bo/2023-bbs-op-datamining-orig.git
+[submodule "2023-bbs-op-datamining"]
+	path = 2023-bbs-op-datamining
+	url = git@github.com:w4bo/2023-bbs-op-datamining.git
