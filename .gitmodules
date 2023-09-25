@@ -49,3 +49,6 @@
 [submodule "2023-bbs-op-datamining"]
 	path = 2023-bbs-op-datamining
 	url = git@github.com:w4bo/2023-bbs-op-datamining.git
+[submodule "teaching"]
+	path = didattica
+	url = git@bitbucket.org:mfrancia/didattica.git
