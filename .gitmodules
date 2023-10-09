@@ -52,3 +52,15 @@
 [submodule "teaching"]
 	path = didattica
 	url = git@bitbucket.org:mfrancia/didattica.git
+[submodule "2022-bbs-dm"]
+	path = 2022-bbs-dm
+	url = git@github.com:w4bo/2022-bbs-dm.git
+[submodule "2023-bbs-dm"]
+	path = 2023-bbs-dm
+	url = git@github.com:w4bo/2023-bbs-dm.git
+[submodule "2023-bbs-fbi"]
+	path = 2023-bbs-fbi
+	url = git@github.com:w4bo/2023-bbs-fbi.git
+[submodule "2022-bbs-fbi"]
+	path = 2022-bbs-fbi
+	url = git@github.com:w4bo/2022-bbs-fbi.git
