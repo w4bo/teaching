@@ -64,3 +64,6 @@
 [submodule "2022-bbs-fbi"]
 	path = 2022-bbs-fbi
 	url = git@github.com:w4bo/2022-bbs-fbi.git
+[submodule "2022-bbs-dsaa"]
+	path = 2022-bbs-dsaa
+	url = git@github.com:w4bo/2022-bbs-dsaa.git
