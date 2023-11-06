@@ -67,3 +67,6 @@
 [submodule "2022-bbs-dsaa"]
 	path = 2022-bbs-dsaa
 	url = git@github.com:w4bo/2022-bbs-dsaa.git
+[submodule "AA2324-unibo-bigdataandcloudplatforms"]
+	path = AA2324-unibo-bigdataandcloudplatforms
+	url = git@github.com:w4bo/AA2324-unibo-bigdataandcloudplatforms.git
