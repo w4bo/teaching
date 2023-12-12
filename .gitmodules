@@ -82,3 +82,6 @@
 [submodule "finf-labs"]
 	path = finf-labs
 	url = git@github.com:finf-unibo/finf-labs.git
+[submodule "AA2324-unibo-labdiinformatica"]
+	path = AA2324-unibo-labdiinformatica
+	url = git@github.com:w4bo/AA2324-unibo-labdiinformatica.git
