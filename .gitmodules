@@ -85,3 +85,6 @@
 [submodule "AA2324-unibo-labdiinformatica"]
 	path = AA2324-unibo-labdiinformatica
 	url = git@github.com:w4bo/AA2324-unibo-labdiinformatica.git
+[submodule "AA2324-unibo-dtmnosqlseminar"]
+	path = AA2324-unibo-dtmnosqlseminar
+	url = git@github.com:w4bo/AA2324-unibo-dtmnosqlseminar.git
