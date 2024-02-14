@@ -70,9 +70,6 @@
 [submodule "AA2324-unibo-bigdataandcloudplatforms"]
 	path = AA2324-unibo-bigdataandcloudplatforms
 	url = git@github.com:w4bo/AA2324-unibo-bigdataandcloudplatforms.git
-[submodule "slides"]
-	path = slides
-	url = git@github.com:w4bo/slides.git
 [submodule "courses-finfA"]
 	path = courses-finfA
 	url = git@github.com:finf-unibo/courses-finfA.git
