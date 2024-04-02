@@ -4,7 +4,6 @@ for d in */ ; do
     [ -L "${d%/}" ] && continue
     echo "$d"
     cd $d
-    git pull origin master
-    git pull origin main
+    git pull
     cd -
 done
