@@ -88,3 +88,9 @@
 [submodule "slides-md"]
 	path = slides-md
 	url = git@github.com:w4bo/slides-md.git
+[submodule "2024-utours-nosql"]
+	path = 2024-utours-nosql
+	url = git@github.com:w4bo/2024-utours-nosql.git
+[submodule "slides-markdown"]
+	path = slides-markdown
+	url = git@github.com:w4bo/slides-markdown.git
