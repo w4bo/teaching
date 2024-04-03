@@ -94,3 +94,6 @@
 [submodule "slides-markdown"]
 	path = slides-markdown
 	url = git@github.com:w4bo/slides-markdown.git
+[submodule "2024-bbs-dm"]
+	path = 2024-bbs-dm
+	url = git@github.com:w4bo/2024-bbs-dm.git
