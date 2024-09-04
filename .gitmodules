@@ -100,3 +100,6 @@
 [submodule "AA2425-unibo-mldm"]
 	path = AA2425-unibo-mldm
 	url = git@github.com:w4bo/AA2425-unibo-mldm.git
+[submodule "2024-bf-wateringsummerschool"]
+	path = 2024-bf-wateringsummerschool
+	url = git@github.com:w4bo/2024-bf-wateringsummerschool.git
