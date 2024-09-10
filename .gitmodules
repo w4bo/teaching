@@ -103,3 +103,6 @@
 [submodule "2024-bf-wateringsummerschool"]
 	path = 2024-bf-wateringsummerschool
 	url = git@github.com:w4bo/2024-bf-wateringsummerschool.git
+[submodule "2024-bbs-op-datamining"]
+	path = 2024-bbs-op-datamining
+	url = git@github.com:w4bo/2024-bbs-op-datamining.git
