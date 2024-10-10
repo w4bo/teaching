@@ -106,3 +106,6 @@
 [submodule "2024-bbs-op-datamining"]
 	path = 2024-bbs-op-datamining
 	url = git@github.com:w4bo/2024-bbs-op-datamining.git
+[submodule "AA2425-unibo-bigdataandcloudplatforms"]
+	path = AA2425-unibo-bigdataandcloudplatforms
+	url = git@github.com:w4bo/AA2425-unibo-bigdataandcloudplatforms.git
