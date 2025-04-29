@@ -109,3 +109,12 @@
 [submodule "AA2425-unibo-bigdataandcloudplatforms"]
 	path = AA2425-unibo-bigdataandcloudplatforms
 	url = git@github.com:w4bo/AA2425-unibo-bigdataandcloudplatforms.git
+[submodule "2025-webinar-smartirrigation"]
+	path = 2025-webinar-smartirrigation
+	url = git@github.com:w4bo/2025-webinar-smartirrigation.git
+[submodule "2024-bbs-fbi"]
+	path = 2024-bbs-fbi
+	url = git@github.com:w4bo/2024-bbs-fbi.git
+[submodule "2025-bbs-fbi"]
+	path = 2025-bbs-fbi
+	url = git@github.com:w4bo/2025-bbs-fbi.git
