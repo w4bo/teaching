@@ -118,3 +118,6 @@
 [submodule "2025-bbs-fbi"]
 	path = 2025-bbs-fbi
 	url = git@github.com:w4bo/2025-bbs-fbi.git
+[submodule "2025-bbs-op-datamining"]
+	path = 2025-bbs-op-datamining
+	url = git@github.com:w4bo/2025-bbs-op-datamining.git
