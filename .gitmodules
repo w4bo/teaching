@@ -124,6 +124,12 @@
 [submodule "AA2526-unibo-bigdataandcloudplatforms"]
 	path = AA2526-unibo-bigdataandcloudplatforms
 	url = git@github.com:w4bo/AA2526-unibo-bigdataandcloudplatforms.git
+[submodule "AA2526-unibo-mldm"]
+	path = AA2526-unibo-mldm
+	url = git@github.com:w4bo/AA2526-unibo-mldm.git
+[submodule "AA2526-unibo-phddataplat"]
+	path = AA2526-unibo-phddataplat
+	url = git@github.com:w4bo/AA2526-unibo-phddataplat.git
 [submodule "AA2627-unibo-mldm"]
 	path = AA2627-unibo-mldm
 	url = git@github.com:w4bo/AA2627-unibo-mldm.git
