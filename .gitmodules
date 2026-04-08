@@ -133,3 +133,12 @@
 [submodule "AA2627-unibo-mldm"]
 	path = AA2627-unibo-mldm
 	url = git@github.com:w4bo/AA2627-unibo-mldm.git
+[submodule "2026-bbs-op-itgovernance"]
+	path = 2026-bbs-op-itgovernance
+	url = git@github.com:w4bo/2026-bbs-op-itgovernance.git
+[submodule "2026-bbs-dm"]
+	path = 2026-bbs-dm
+	url = git@github.com:w4bo/2026-bbs-dm.git
+[submodule "2026-bbs-fbi"]
+	path = 2026-bbs-fbi
+	url = git@github.com:w4bo/2026-bbs-fbi.git
