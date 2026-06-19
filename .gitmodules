@@ -142,3 +142,9 @@
 [submodule "2026-bbs-fbi"]
 	path = 2026-bbs-fbi
 	url = git@github.com:w4bo/2026-bbs-fbi.git
+[submodule "AA2627-unibo-dcai"]
+	path = AA2627-unibo-dcai
+	url = git@github.com:w4bo/AA2627-unibo-dcai.git
+[submodule "AA2627-unibo-bdcp"]
+	path = AA2627-unibo-bdcp
+	url = git@github.com:w4bo/AA2627-unibo-bdcp.git
